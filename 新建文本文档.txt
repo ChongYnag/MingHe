@@ -1,0 +1,8 @@
+<script>
+function pyRegisterCvt(){
+	var w=window,d=document,e=encodeURIComponent;
+	var b=location.href,c=d.referrer,f,g=d.cookie,h=g.match(/(^|;)\s*ipycookie=([^;]*)/),i=g.match(/(^|;)\s*ipysession=([^;]*)/);
+	if (w.parent!=w){f=b;b=c;c=f;};u='//stats.bjglxf.com/cvt?a='+e('7ws.pcs.Inet2OBz0k18XWhkwzzl4P')+'&c='+e(h?h[2]:'')+'&s='+e(i?i[2].match(/jump\%3D(\d+)/)[1]:'')+'&u='+e(b)+'&r='+e(c)+'&rd='+(new Date()).getTime()+'&e=';
+	(new Image()).src=u;
+}
+</script>

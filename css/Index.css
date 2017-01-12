@@ -1,0 +1,528 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    ;
+    font-family: "Microsoft YaHei" !important;
+    font-family: "Microsoft YaHei";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    min-width: 1000px;
+}
+
+#top {
+    background-color: #fff;
+    height: 80px;
+    opacity: 0.9;
+}
+
+    #top .top_inner {
+        width: 1000px;
+        background: url(../images/Logo.png) center left no-repeat;
+        height: 80px;
+    }
+
+        #top .top_inner a {
+            width: 130px;
+            height: 80px;
+            display: block;
+            float: left;
+        }
+
+.banner {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    min-width: 1000px;
+}
+
+    .banner .banner_img {
+        width: 1903px;
+        height: 680px;
+        overflow: hidden;
+        position: absolute;
+        z-index: 1;
+    }
+
+        .banner .banner_img ul {
+            height: 680px;
+        }
+
+            .banner .banner_img ul li {
+                height: 680px;
+                width: 100%;
+                float: left;
+            }
+
+                .banner .banner_img ul li.li1 {
+                    background: url(../images/newbanner.png) no-repeat top center;
+                    background-size:100% 100%;
+                }
+
+                .banner .banner_img ul li.li2 {
+                    background: url(../images/newbanner.png) no-repeat top center;
+                     background-size:100% 100%;
+                }
+
+                .banner .banner_img ul li.li3 {
+                    background: url(../images/newbanner.png) no-repeat top center;
+                     background-size:100% 100%;
+                }
+
+    .banner .banner_txt {
+        width: 1000px;
+        height: 430px;
+        position: relative;
+        z-index: 2;
+        padding-top: 150px;
+        left: 0;
+        top: 0px;
+    }
+
+        .banner .banner_txt .banner_txt_name {
+            margin: auto;
+            width: 446px;
+            height: 35px;
+        }
+
+        .banner .banner_txt .selectDiv {
+            width: 1000px;
+            margin: 56px auto 45px auto;
+        }
+
+            .banner .banner_txt .selectDiv a.prev {
+                background: url(../images/left.png) no-repeat;
+                width: 50px;
+                height: 100px;
+                display: block;
+                float: left;
+                margin-top: 15px;
+                cursor: pointer;
+            }
+
+            .banner .banner_txt .selectDiv a.next {
+                background: url(../images/right.png) no-repeat;
+                width: 50px;
+                height: 100px;
+                display: block;
+                float: right;
+                margin-top: 15px;
+                cursor: pointer;
+            }
+
+            .banner .banner_txt .selectDiv .topList {
+                width: 1000px;
+                overflow: hidden;
+                position: relative;
+                height: 139px;
+                padding-top: 5px;
+            }
+            /* margin-left:130px; float:left;*/
+            .banner .banner_txt .selectDiv ul.listDiv {
+                position: absolute;
+                height: 139px;
+                margin-top: 5px;
+            }
+
+                .banner .banner_txt .selectDiv ul.listDiv li {
+                    width: 132px;
+                    height: 133px;
+                    float: left;
+                    margin: 0 16px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+                    .banner .banner_txt .selectDiv ul.listDiv li a {
+                        width: 132px;
+                        height: 133px;
+                        display: block;
+                    }
+
+                    .banner .banner_txt .selectDiv ul.listDiv li.dynamic {
+                        background: url(../images/f1.png) center no-repeat;
+                    }
+
+                    .banner .banner_txt .selectDiv ul.listDiv li.business {
+                        background: url(../images/f2.png) center no-repeat;
+                    }
+
+                    .banner .banner_txt .selectDiv ul.listDiv li.about {
+                        background: url(../images/f3.png) center no-repeat;
+                    }
+                    .banner .banner_txt .selectDiv ul.listDiv li.information {
+                        background: url(../images/f6.png) center no-repeat;
+                    }
+                    .banner .banner_txt .selectDiv ul.listDiv li.case {
+                        background: url(../images/f4.png) center no-repeat;
+                    }
+
+                    .banner .banner_txt .selectDiv ul.listDiv li.contact {
+                        background: url(../images/f5.png) center no-repeat;
+                    }
+
+                    .banner .banner_txt .selectDiv ul.listDiv li:hover {
+                        box-shadow: 0 0 5px #fff;
+                    }
+
+                    .banner .banner_txt .selectDiv ul.listDiv li span {
+                        font-size: 18px;
+                        color: #fff;
+                        font-family: "Microsoft YaHei";
+                        padding: 0 26px;
+                        padding-top: 95px;
+                        display: block;
+                    }
+
+        .banner .banner_txt .banner_tit {
+            color: #FFF;
+            font-size: 20px;
+            font-family: "Microsoft YaHei";
+            text-align: center;
+        }
+
+        .banner .banner_txt .navlist {
+            width: 90px;
+            margin: 75px auto auto auto;
+        }
+
+            .banner .banner_txt .navlist ul {
+                background: #b76028;
+            }
+
+                .banner .banner_txt .navlist ul li {
+                    width: 14px;
+                    height: 14px;
+                    border: 1px solid #fff;
+                    float: left;
+                    border-radius: 7px;
+                    margin: 0 7px;
+                    opacity: 0.5;
+                    background-color: #fff;
+                    cursor: pointer;
+                }
+
+                    .banner .banner_txt .navlist ul li.light {
+                        opacity: 1;
+                        background: none;
+                    }
+
+.MingHeTit {
+    height: 50px;
+    width: 1000px;
+    border-bottom: 1px solid #eeeeee;
+    margin: 60px auto 20px auto;
+}
+
+    .MingHeTit h3 {
+        line-height: 50px;
+        color: #333333;
+        font-size: 20px;
+        font-family: "Microsoft YaHei";
+    }
+
+.AboutHe {
+    width: 1000px;
+    overflow: inherit;
+}
+
+    .AboutHe p {
+        color: #666666;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+.Dynamic {
+    width: 1000px;
+    overflow: overlay;
+}
+
+    .Dynamic a {
+        width: 320px;
+        height: 250px;
+        float: left;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+
+        .Dynamic a img {
+            width: 320px;
+            height: 190px;
+            border: none;
+        }
+
+        .Dynamic a p {
+            line-height: 33px;
+            height: 33px;
+            color: #333333;
+            font-size: 16px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .Dynamic a span {
+            color: #666666;
+            font-size: 12px;
+            display: none;
+        }
+
+.LookAll {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    clear: both;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px auto;
+    border: 1px solid #999999;
+    color: #000;
+}
+
+    .LookAll:hover {
+        background-color: #ff870c;
+        color: #ffffff;
+        border: 1px solid #ff870c;
+    }
+
+#Business .Business_inner {
+    width: 1000px;
+    min-width: 1000px;
+}
+
+    #Business .Business_inner .BusinessList {
+        width: 700px;
+        height: 340px;
+        float: left;
+    }
+
+        #Business .Business_inner .BusinessList img {
+            width: 700px;
+            height: 340px;
+        }
+
+    #Business .Business_inner .BusinessUl {
+        float: right;
+        width: 280px;
+    }
+
+        #Business .Business_inner .BusinessUl li {
+            width: 278px;
+            height: 46px;
+            border: 1px solid #d8d8d8;
+            margin-bottom: 10px;
+            background-color: #e5e5e5;
+            text-align: center;
+            line-height: 46px;
+            font-family: myFirstFonts;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+            #Business .Business_inner .BusinessUl li a {
+                color: #666666;
+                width: 278px;
+                height: 60px;
+                display: block;
+            }
+
+            #Business .Business_inner .BusinessUl li.BusinessLi {
+                background-color: #ff870c;
+                border-color: #ff870c;
+            }
+
+                #Business .Business_inner .BusinessUl li.BusinessLi a {
+                    color: #ffffff;
+                }
+
+#Cases {
+    min-width: 1000px;
+}
+
+    #Cases .Cases_inner {
+        width: 1000px;
+    }
+
+        #Cases .Cases_inner .CaseList {
+        }
+
+            #Cases .Cases_inner .CaseList li {
+                width: 320px;
+                height: 200px;
+                float: left;
+                margin: 0 20px 20px 0;
+                position: relative;
+                cursor: pointer;
+            }
+
+                #Cases .Cases_inner .CaseList li img {
+                    width: 320px;
+                    height: 200px;
+                }
+
+                #Cases .Cases_inner .CaseList li span {
+                    width: 320px;
+                    height: 30px;
+                    background: rgba(0,0,0,0.6);
+                    color: #ffffff;
+                    font-size: 12px;
+                    font-family: "Microsoft YaHei";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    text-align: center;
+                    line-height: 30px;
+                }
+
+                #Cases .Cases_inner .CaseList li.floatNone {
+                    margin-right: 0;
+                }
+
+        #Cases .Cases_inner .LookMore {
+            width: 198px;
+            height: 38px;
+            border: 1px solid #999999;
+            display: block;
+            text-align: center;
+            line-height: 38px;
+            cursor: pointer;
+            color: #000;
+        }
+
+            #Cases .Cases_inner .LookMore:hover {
+                background-color: #ff870c;
+                color: #ffffff;
+                border: 1px solid #ff870c;
+            }
+
+#bigPic {
+    position: absolute;
+    z-index: 6;
+}
+
+#Contact {
+    margin-bottom: 80px;
+    min-width: 1000px;
+}
+
+    #Contact .Contact_inner {
+        width: 1000px;
+        overflow: auto;
+    }
+
+        #Contact .Contact_inner .ContactList {
+            width: 1000px;
+            overflow: auto;
+        }
+
+            #Contact .Contact_inner .ContactList .ContactFir {
+                overflow: auto;
+            }
+
+                #Contact .Contact_inner .ContactList .ContactFir img {
+                    display: block;
+                    float: left;
+                    width: 580px;
+                    height: 350px;
+                }
+
+                #Contact .Contact_inner .ContactList .ContactFir div {
+                    float: left;
+                }
+
+                    #Contact .Contact_inner .ContactList .ContactFir div h2 {
+                        font-size: 16px;
+                        color: #333333;
+                        padding-left: 39px;
+                        line-height: 36px;
+                        font-weight: normal;
+                    }
+
+                    #Contact .Contact_inner .ContactList .ContactFir div p {
+                        font-size: 16px;
+                        color: #333333;
+                        padding-left: 39px;
+                        line-height: 25px;
+                        padding-bottom: 18px;
+                        width: 323px;
+                    }
+
+#Quick .NavUl li.HOme {
+    display: none;
+}
+#minghedongtai ul {
+    overflow:hidden;
+}
+#minghedongtai ul li {
+    float:left;
+    line-height: 48px;
+    color: #333333;
+    font-size: 20px;
+    cursor:pointer;
+    margin-right:40px;
+}
+    #minghedongtai ul li.active {
+        color:#FF870B;
+        border-bottom:2px solid #FF870B;
+    }
+
+.MhZixun {
+    width: 1000px;
+    overflow: overlay;
+    display:none;
+}
+    .MhZixun ul li {
+        height:46px;
+        line-height:48px;
+        border-bottom:1px dashed #CECECE;
+        font-size:14px;
+        padding-left:20px;
+        background:url(../images/point.png) no-repeat left center;
+        overflow:hidden;
+    }
+        .MhZixun ul li b {
+            float:right;
+            font-weight:normal;
+            font-size:14px;
+            color:#A5A5A5;
+        }
+        .MhZixun ul li a:hover {
+            color:#ff870c;
+        }
+.MhZixuna {
+    display: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    clear: both;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin: 50px auto;
+    margin-bottom:20px;
+    border: 1px solid #999999;
+    color: #000;
+}
+.MhZixuna:hover {
+        background-color: #ff870c;
+        color: #ffffff;
+        border: 1px solid #ff870c;
+    }

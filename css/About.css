@@ -1,0 +1,20 @@
+*{ margin:0 auto; padding:0;}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+.clear{ clear:both;}
+body{ min-width:1000px; background-color:#262525;}
+
+#content{ background:url(../images/inf_bg.png) center top no-repeat; overflow: hidden;}
+#content .content_inner{padding-bottom:50px;}
+#content .content_inner p.LOGO{ background:url(../images/Logo3.png) center bottom no-repeat; height:258px; padding-top:148px;}
+#content .content_inner .mainContent{ width:1000px; margin: 110px auto auto auto;}
+#content .content_inner .mainContent .bigTitle{ width:1000px; height:109px; background:url(../images/bigTitle_bg.png) no-repeat;}
+#content .content_inner .mainContent .bigTitle p{ font-size:30px; line-height:40px;color:#333333; padding-top:25px; text-align:center;}
+#content .content_inner .mainContent .bigTitle span{ color:#999999; font-size:18px; text-align:center;display:block;}
+#content .content_inner .mainContent .maincontents{ background:rgba(255,255,255,0.95); width:940px; padding:20px 30px; margin-top:10px;padding-bottom:150px;}
+#content .content_inner .mainContent .maincontents h4{ font-size:24px; color:#333333;background:url(../images/title_bg.jpg) center left no-repeat; padding-left:10px; margin-top:60px;}
+#content .content_inner .mainContent .maincontents p.intro{ font-size:14px; color:#666666;  line-height:25px; padding:15px; width:auto; margin:0; letter-spacing:0.5px;}
+#content .content_inner .mainContent .maincontents .power{ padding:10px; background:#ffffff; box-shadow:0 0 10px #e9e9e9; float:left; margin:6px;}
+#content .content_inner .mainContent .maincontents .power img{ width:280px; height:200px;}
+#content .content_inner .mainContent .maincontents .power img.imgs{ width:330px;}
+#content .content_inner .mainContent .maincontents .IMG{ display:block; padding-top:30px; width: 940px;}

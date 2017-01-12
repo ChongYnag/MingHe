@@ -1,0 +1,20 @@
+*{ margin:0 auto; padding:0;}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+.clear{ clear:both;}
+body{ min-width:1000px; background-color:#262525;}
+
+#content{ background:url(../images/inf_detail_bg.png) center top no-repeat;}
+#content .content_inner{padding-bottom:40px; overflow: hidden;}
+#content .content_inner p.LOGO{ background:url(../images/Logo3.png) center bottom no-repeat; height:258px; padding-top:148px;}
+#content .content_inner .mainContent{ width:960px;  background:rgba(255,255,255,0.95); margin: 100px auto auto auto; padding: 0 20px 30px 20px; overflow: hidden;}
+#content .content_inner .mainContent a.smallTitle{ font-size:16px; width:81px; height:26px; line-height:26px; display:block; background-color:#eb6877; border-radius:7px; color:#f4f2f5; text-align:center; margin:42px 0 20px 0px;}
+#content .content_inner .mainContent h6{ font-size:24px; color:#333333; font-weight:normal; text-align:left; letter-spacing:1.5px; line-height:36px;}
+#content .content_inner .mainContent p.titleP{ color:#666666; text-align:left; padding:20px 0; font-size:16px; line-height:28px;}
+#content .content_inner .mainContent p.article{ color:#333333; font-size:14px; line-height:22px; letter-spacing:0.8px; padding:22px 0;}
+#content .content_inner .mainContent .xiang{ display:block;}
+#content .content_inner .mainContent img{ width: 470px; display: inline-block;}
+
+
+
+.insurance p{ margin-bottom: 20px;}

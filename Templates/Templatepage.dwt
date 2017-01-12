@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit"> -->
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1000">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!-- TemplateBeginEditable name="doctitle" -->
+<!-- TemplateEndEditable -->
+<link href="../css/PublicCSS.css" type="text/css" rel="stylesheet" charset="UTF-8">
+<script src="../js/jquery-1.11.1.js" type="text/javascript" language="javascript"></script>
+<script src="../js/layer/layer.js" type="text/javascript" language="javascript"></script>
+<script src="../js/UrlUtility.js" type="text/javascript" language="javascript"></script>
+<script src="../js/PublicJS.js" type="text/javascript" language="javascript"></script>
+<script src="../js/Popalbum.js" type="text/javascript" language="javascript"></script>
+<script src="../js/filmmaking.js" type="text/javascript" language="javascript"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<!-- TemplateBeginEditable name="demo" -->
+<!-- TemplateEndEditable -->
+<div id="footer">
+	<div class="footer_inner">
+    	<p>北京名赫文化传播有限公司&nbsp;&nbsp;Copyright©&nbsp;2007-2015&nbsp;&nbsp;&nbsp;京ICP备13019820号 </p>
+    </div>
+</div>
+
+<div class="Qrcode_wrap">
+	<div class="Qrcode">
+    	<img src="/images/erweima.png" alt="二维码" />
+        <span>微信号：MIHOT</span>
+    </div>
+</div>
+<!--onclick="bussiness()"-->
+<div class="Quick_wrap">
+	<div id="Quick">
+            <ul class="NavUl">
+            	<li class="HOme"><a href="Index.html" title="名赫首页"><div class="LEFT"></div><div class="RIGHT">名赫<br />首页</div></a></li>
+              <li class="guanyu"><a href="About.html" title="关于名赫"><div class="LEFT" style="margin-left: 0px;"></div><div class="RIGHT">关于<br>名赫</div></a></li>
+                <li class="zixun"><a href="Information.html" title="名赫动态"><div class="LEFT"></div><div class="RIGHT">名赫<br>动态</div></a></li>
+                <li class="dongtai"><a href="informationList.html" title="名赫资讯"><div class="LEFT" style="margin-left: 0px;"></div><div class="RIGHT">名赫<br>资讯</div></a></li>
+                <li class="yewu"><a href="Index.html#mingheyewu" title="名赫业务"><div class="LEFT" style="margin-left: 0px;"></div><div class="RIGHT">名赫<br>业务</div></a></li>
+                <li class="anli LIGHTLI"><a href="Cases.html" title="名赫案例"><div class="LEFT" style="margin-left: 0px;"></div><div class="RIGHT">名赫<br>案例</div></a></li>
+                <li class="lianxi"><a href="Index.html#lianximinghe" title="联系名赫"><div class="LEFT" style="margin-left: 0px;"></div><div class="RIGHT">联系<br>名赫</div></a></li>
+                <li class="TOp"><a href="javascript:" title="返回顶部"><div class="LEFT"></div><div class="RIGHT">返回<br>顶部</div></a></li></li>             
+            </ul>
+        </div>
+</div>
+</body>
+</html>

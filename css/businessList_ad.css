@@ -1,0 +1,55 @@
+*{ margin:0 auto; padding:0;}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+.clear{ clear:both;}
+body{ min-width:1000px; background-color:#262525;}
+
+#content{ background:url(../images/inf_bg.png) center top no-repeat; overflow: auto;}
+#content .content_inner{padding-bottom:50px;overflow-x: hidden;}
+#content .content_inner p.LOGO{ background:url(../images/Logo3.png) center bottom no-repeat; height:258px; padding-top:148px;}
+#content .content_inner .mainContent{ width:1000px;margin:110px auto auto auto;}
+#content .content_inner .mainContent .bigTitle{ width:1000px; height:84px; position: relative; padding-top: 25px; background:url(../images/bigTitle_bg.png) no-repeat;}
+#content .content_inner .mainContent .bigTitle .smallTitle{ font-size:24px; float:left; margin-left:26px; color:#333333;}
+#content .content_inner .mainContent .bigTitle .smallTitle span{ color:#999999; font-size:18px;}
+#content .content_inner .mainContent .bigTitle .titleRight{ text-align: center; width: 100%; position:absolute; top:35px; font-size:28px; color:#ff870c;}
+#content .content_inner .mainContent .maincontents{ background:rgba(255,255,255,0.95); width:940px; padding:20px 30px; margin-top:10px;}
+#content .content_inner .mainContent .maincontents h4{ font-size:22px; color:#333333;background:url(../images/title_bg.jpg) center left no-repeat; padding-left:10px; margin: 20px auto;}
+#content .content_inner .mainContent .maincontents .intro{ color:#666666; font-size:14px; line-height:26px;  width:auto; padding:0px 0 0px 15px; margin:0; letter-spacing:0.5px;}
+#content .content_inner .mainContent .maincontents .casess{ width:1000px; padding-top:30px;}
+#content .content_inner .mainContent .maincontents .casess .cases{ width:300px; float:left; margin:0 8px;}
+#content .content_inner .mainContent .maincontents .casess .cases img{ width:100%; height:200px; cursor:pointer;}
+#content .content_inner .mainContent .maincontents .casess .cases .case_name{ font-size:14px;line-height:40px; text-align:left; color:#666666; height:40px;text-overflow:ellipsis;white-space: nowrap; overflow:hidden; display:block;}
+#content .content_inner .mainContent .maincontents .casess .lookMore{ width:198px; height:38px; display:block; border:1px solid #999999; color:#333333; font-size:16px; line-height:38px; 
+text-align:center; cursor:pointer; margin-top:50px;margin-left: 370px;}
+
+.show{ background:rgba(1,1,1,0.8);padding:70px 100px; position:relative;width:800px;height:500px;}
+.show .show_inner{ position:relative;width:800px;height:500px;}
+.show .show_inner li{ position:absolute;width:800px;height:500px;}
+.show .show_inner li img{ position: absolute;}
+
+.show .Title{ color:#fff;  font-size:28px; line-height:56px; text-align:center; z-index:999; position:absolute; top:72px; left:0; right:0;}
+.show .Title .totle{ font-size:24px; line-height:36px; color:#999999;}
+.show .Title .totle .n{ color:#ffffff;}
+
+.show a.LEFT{ background:url(../images/left.png) center no-repeat; width:50px; height:100px; display:block; position:absolute; z-index:999; cursor:pointer; margin-top:-50px; top:50%;left: 30px;}
+.show a.RIGHT{ background:url(../images/right.png) center no-repeat; width:50px; height:100px; display:block; position:absolute; z-index:999; cursor:pointer; margin-top:-50px; top:50%; right: 30px;}
+
+#content .content_inner .mainContent .maincontents .ys_casess .cases{ position: relative; cursor:pointer;}
+#content .content_inner .mainContent .maincontents .ys_casess .cases i{ width: 300px; height: 200px;position:absolute; top:0px; left:0px; display:none;} 
+#content .content_inner .mainContent .maincontents .ys_casess .cases:hover i{background: url(../imagestwo/filmmaking/filmmaking_play.png) no-repeat; display: block;}
+
+.ZyVideo{position:relative; width:900px; /*height:675px;*/ background:#22a1da;}
+.ZyVideo .ZyVideo_Top{/*height:675px;*/ width:900px; position:relative;}
+.ZyVideo .ZyVideo_Top video{/*height:675px;*/ width:900px;}
+.ZyVideo .ZyVideo_Top b{width:128px; height:128px; cursor:pointer; left:50%; display:block; z-index:5; top:50%; margin-left:-64px; margin-top:-64px; background:url(../images/play_Big.png) no-repeat; position:absolute;}
+.ZyVideo .ZyVideo_Bottom{position:absolute; bottom:0px; z-index:6; width:100%; height:46px; background:#0a090c;}
+.ZyVideo .ZyVideo_Bottom .Progress{background: #808080; height: 6px; width: 900px; cursor: pointer; position: relative;}
+.ZyVideo .ZyVideo_Bottom .Progress .progressQQ{height: 6px; top: 0; z-index: 1; width: 100%; position: absolute;} .ZyVideo .ZyVideo_Bottom .Progress .timeBar{height: 6px; top: 0; position: absolute; width: 0px; border-radius: 3px; background: #ff870c;} .kongzhianniu{width:100%; position:relative; top:6px;}
+.kongzhianniu button{width: 31px; outline: none; height: 29px; float: left; border: none; background: url(../images/volume20160122.png) no-repeat;}
+.kongzhianniu button{width:31px; outline:none; height:29px;float:left; margin-top:5px; border:none; background:url(../images/voice.png) no-repeat;margin-left: 500px;}
+.kongzhianniu button.bglight{background:url(../images/vioice2.png) no-repeat;}
+.kongzhianniu input{height:3px; float:left;margin-top: 12px;} .ZyVideo .kongzhianniu b{left:0; height: 18px; width: 16px; margin-left:20px; margin-top:5px; cursor: pointer; float: left; background: url(../images/stop.png) no-repeat center center;} .ZyVideo .kongzhianniu b.bgligh{background: url(../images/play.png) no-repeat center center;}
+.kongzhianniu p{width: 20px; margin-right:20px; height: 20px; margin-top:2px; background: url(../images/full.png) no-repeat; float: right; cursor: pointer; display: none;}
+.time{color:#878787; display:block; float:left; margin-left:50px;line-height:28px;}
+
+

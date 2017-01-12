@@ -1,0 +1,63 @@
+﻿#banner {
+    width:100%;
+    padding-top:420px;
+    height:1520px;
+    background:url(../images/infolistBG.jpg) no-repeat top center;
+    background-size:100% 100%;
+}
+.contaner {  
+    width:960px;
+    padding:0 20px;
+    padding-top:40px;
+    height:1360px;
+    margin:0 auto;
+    background:#fff;
+}
+    .contaner span {  
+        display:inline-block;
+        width:80px;
+        height:26px;
+        line-height:26px;
+        font-size:14px;
+        background:#FF870C;
+        color:#fff;
+        border-radius:45px;
+        text-align:center;
+        margin-bottom:18px;
+    }
+    .contaner h1 {
+        font-size:24px;
+        margin-bottom:15px;
+    }
+    .contaner h6 {
+        font-weight:normal;
+        font-size:16px;
+        color:#666;
+        margin-bottom:35px;
+    }
+    .contaner p {
+        font-size:14px;
+        margin-bottom:25px;
+    }
+.lf {
+    float:left;
+}
+.rt {
+    float:right;
+}
+.img-up,.img-down {
+    width:960px;
+    height:520px;
+    margin-bottom:20px;
+}
+.img-up .lf img{
+   display:block;
+   margin-bottom:20px;
+}
+.img-down .lf img{
+    float:left;
+}
+.img-down .rt img{
+     float:right;
+     margin-bottom:20px;
+}

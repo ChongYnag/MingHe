@@ -1,0 +1,141 @@
+*{ margin:0 auto; padding:0;}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+.clear{ clear:both;}
+body{ min-width:1180px;}
+#top{ background-color:#fff; height:80px; opacity:0.9;}
+#top .top_inner{ width:1180px; background:url(../images/Logo.png) center left no-repeat; height:80px;}
+
+#banner{}
+#banner .banner_inner{}
+#banner .banner_inner .zindex{ position:absolute; z-index:999; margin:0 auto; margin-top:-550px;}
+#banner .banner_inner .bannerList{height:720px; overflow:hidden; position:relative; margin-left:0; z-index:0;}
+#banner .banner_inner .bannerList .ListUl{ position:absolute;height:720px; float:left;}
+#banner .banner_inner .bannerList li{height:720px; float:left; cursor:pointer;}
+#banner .banner_inner .bannerList li.bannerFir{ background:url(../images/banner0.jpg) center center no-repeat;}
+#banner .banner_inner .bannerList li.bannerSec{ background:url(../images/banner1.jpg) center center no-repeat;}
+#banner .banner_inner .bannerList li.bannerThi{ background:url(../images/banner2.jpg) center center no-repeat;}
+#banner .banner_inner p{ color:#ffffff; font-size:50px; width:422px; font-family:myFirstFonts; height:150px; z-index:111;}
+#banner .banner_inner .selectDiv{ width:1180px;}
+#banner .banner_inner .selectDiv a.prev{ background:url(../images/left.png) no-repeat; width:50px; height:100px; display:block; float:left; margin-top:15px; cursor:pointer;}
+#banner .banner_inner .selectDiv a.next{ background:url(../images/right.png) no-repeat; width:50px; height:100px; display:block; float:right; margin-top:15px; cursor:pointer;}
+#banner .banner_inner .selectDiv .topList{ width:820px; overflow:hidden; position:relative; height:139px; padding-top:5px;}
+ <!--margin-left:130px; float:left;-->
+#banner .banner_inner .selectDiv ul.listDiv{ position:absolute; height:139px; margin-top:5px;}
+#banner .banner_inner .selectDiv ul.listDiv li{ width:132px; height:133px; float:left; margin:0 16px; border-radius:10px; cursor:pointer;}
+#banner .banner_inner .selectDiv ul.listDiv li a{ width:132px; height:133px; display:block;}
+#banner .banner_inner .selectDiv ul.listDiv li.dynamic{ background:url(../images/f1.png) center no-repeat;}
+#banner .banner_inner .selectDiv ul.listDiv li.business{ background:url(../images/f2.png) center no-repeat;}
+#banner .banner_inner .selectDiv ul.listDiv li.about{ background:url(../images/f3.png) center no-repeat;}
+#banner .banner_inner .selectDiv ul.listDiv li.case{ background:url(../images/f4.png) center no-repeat;}
+#banner .banner_inner .selectDiv ul.listDiv li.contact{ background:url(../images/f5.png) center no-repeat;}
+
+#banner .banner_inner .selectDiv ul.listDiv li.lightLi{ box-shadow:0 0 5px #fff;}
+#banner .banner_inner .selectDiv ul.listDiv li span{ font-size:18px; color:#fff; font-family:myFirstFonts; padding:0 30px; padding-top:95px; display:block;}
+
+#banner .banner_inner p.little{ font-size:24px;line-height:100px; width:330px;}
+
+#banner .banner_inner ul.position{ position:relative; margin:0 auto; margin-top:20px; width:90px; height:16px;}
+#banner .banner_inner ul.position li{ width:14px; height:14px; border:1px solid #fff; float:left; border-radius:7px; margin:0 7px; opacity:0.5; background-color:#fff; cursor:pointer;}
+#banner .banner_inner ul.position li.LightLi{ opacity:1; background:none;}
+ 
+#code{ background-color:#fff;}
+#code .code_inner{ background:url(../images/erweima.png) center no-repeat; height:160px; padding:50px 0;}
+#code .code_inner span{ color:#666666; font-size:16px; line-height:28px; margin-top:150px; display:block; text-align:center; font-family:myFirstFontss;} 
+ 
+#About{ background-color:#f2f2f2;}
+#About .About_inner{ width:1180px; padding-bottom:60px;}
+h1{ font-family:myFirstFontss; font-size:28px; line-height:40px; color:#333333; padding:60px 0 0px 0;}
+h1 span{ color:#999999; font-size:18px; line-height:40px; font-family:myFirstFontLight; padding-left:10px;} 
+#About .About_inner p{ font-size:16px; line-hight:25px; color:#666666; font-family:myFirstFontLight; padding:15px 0;}
+#About .About_inner .LookAll{ display:block; width:200px; height:40px;line-height:40px; font-family:myFirstFontLight; font-size:16px; text-align:center; cursor:pointer; margin:10px auto; border:1px solid #999999; color:#000;}
+#About .About_inner .LookAll:hover{ background-color:#ff870c; color:#ffffff; border:1px solid #ff870c;}
+
+#Dynamic{}
+#Dynamic .Dynamic_inner{ width:1180px;}
+#Dynamic .Dynamic_inner h1{ float:left;}
+#Dynamic .Dynamic_inner .move{ width:72px; height:20px; float:right; padding-top:70px;}
+#Dynamic .Dynamic_inner .move a{ width:12px; height:12px; background-color:#ff870c; border-radius:1px; display:block; padding:6px; float:left; margin-right:12px; cursor:pointer;}
+#Dynamic .Dynamic_inner .view{ padding:20px 0; overflow:hidden; position:relative; height:228px;}
+#Dynamic .Dynamic_inner .inf_list{ position:absolute; height:220px;}
+#Dynamic .Dynamic_inner .inf_list li{ width:280px; float:left; margin-right:20px; cursor:pointer;}
+#Dynamic .Dynamic_inner .inf_list li img{ width:280px; height:220px;}
+#Dynamic .Dynamic_inner .inf_list li span{ color:#333333; font-size:12px; line-height:28px; text-align:center; width:280px; height:28px; display:block;}
+#Dynamic .Dynamic_inner .inf_list li.floatNone{ margin-right:0;}
+#Dynamic .Dynamic_inner .Information{}
+#Dynamic .Dynamic_inner .Information p{ font-size:16px; line-height:28px; color:#999999; cursor:pointer;}
+#Dynamic .Dynamic_inner .Information p:hover span{ color:#ff870c;}
+#Dynamic .Dynamic_inner .Information p span{ padding-left:20px; color:#666;}
+#Dynamic .Dynamic_inner .Information p span.LastInf{}
+#Dynamic .Dynamic_inner .LookAll{ display:block; width:200px; height:40px;line-height:40px; font-family:myFirstFontLight; font-size:16px; text-align:center; cursor:pointer; margin:60px auto; border:1px solid #999999; color:#000;}
+#Dynamic .Dynamic_inner .LookAll:hover{ background-color:#ff870c; color:#ffffff; border:1px solid #ff870c;}
+
+#Business{ background-color:#f2f2f2;}
+#Business .Business_inner{ width:1180px;}
+#Business .Business_inner .BusinessList{ width:800px; height:400px; float:left; margin-top:20px; padding-bottom:88px;}
+#Business .Business_inner .BusinessList img{ width:800px; height:400px;}
+#Business .Business_inner .BusinessUl{ float:right; width:360px; margin-top:20px;}
+#Business .Business_inner .BusinessUl li{ width:358px; height:70px; border:1px solid #d8d8d8; margin-bottom:10px; background-color:#e5e5e5; text-align:center; line-height:70px;  font-family:myFirstFonts; font-size:24px; cursor:pointer;}
+#Business .Business_inner .BusinessUl li a{color:#666666;width:358px; height:70px; display:block;}
+#Business .Business_inner .BusinessUl li.BusinessLi{ background-color:#ff870c; border-color:#ff870c;}
+#Business .Business_inner .BusinessUl li.BusinessLi a{ color:#ffffff;}
+
+#Cases{}
+#Cases .Cases_inner{ width:1180px; padding-bottom:64px;}
+#Cases .Cases_inner .CaseList{ padding-top:20px;}
+#Cases .Cases_inner .CaseList li{ width:380px; height:220px; float:left; margin:0 20px 20px 0; position:relative; cursor:pointer;}
+#Cases .Cases_inner .CaseList li img{ width:380px; height:220px;}
+#Cases .Cases_inner .CaseList li span{ width:380px; height:30px; background:rgba(0,0,0,0.6); color:#ffffff; font-size:12px; font-family:myFirstFontLight; position:absolute; margin-top:190px; margin-left:-380px; text-align:center; line-height:30px;}
+#Cases .Cases_inner .CaseList li.floatNone{ margin-right:0;}
+#Cases .Cases_inner .LookMore{ width:198px; height:38px; border:1px solid #999999; display:block; text-align:center; line-height:38px; cursor:pointer; color:#000;}
+#Cases .Cases_inner .LookMore:hover{ background-color:#ff870c; color:#ffffff; border:1px solid #ff870c;}
+#bigPic{ position:absolute;}
+
+#Contact{ background-color:#f2f2f2;}
+#Contact .Contact_inner{ width:1180px;}
+#Contact .Contact_inner .ContactUl{ float:left;}
+#Contact .Contact_inner .ContactUl li{ background-color:#e5e5e5; width:178px; height:38px; text-align:center; line-height:38px; margin-top:12px; color:#666666; font-size:18px; font-family:myFirstFont; cursor:pointer;}
+#Contact .Contact_inner .ContactUl li.ContactLi{ color:#ffffff; background-color:#ff870c; border-color:#ff870c;}
+#Contact .Contact_inner .ContactList{ padding:45px 0 90px 0; min-height:420px;}
+#Contact .Contact_inner .ContactList .ContactFir{}
+#Contact .Contact_inner .ContactList .ContactFir img{ display:block; float:left; width:581px; height:403px;}
+#Contact .Contact_inner .ContactList .ContactFir h2{ font-family:myFirstFontss; font-size:22px; color:#333333; padding-left:39px; float:left; line-height:36px; width:455px; font-weight:normal;}
+#Contact .Contact_inner .ContactList .ContactFir p{font-family:myFirstFontLight; font-size:22px; color:#333333; padding-left:39px; width:455px; float:left; line-height:36px; padding-bottom:25px;}
+#Contact .Contact_inner .ContactList .ContactSec{ display:none;}
+#Contact .Contact_inner .ContactList .ContactSec table{ width:100%; border-collapse:collapse; border:1px solid #afafaf; color:#333333; font-size:18px; font-family:myFirstFontLight;}
+#Contact .Contact_inner .ContactList .ContactSec table th,td{ border:1px solid #afafaf; text-align:center; height:38px;}
+#Contact .Contact_inner .ContactList .ContactSec table th{ background-color:#ffffff;}
+
+#footer{ background-color:#333333;}
+#footer .footer_inner{ width:1180px;}
+#footer .footer_inner p{ text-align:center; font-size:14px; padding:43px 0; font-family:myFirstFontLight; color:#fff; opacity:0.5;}
+
+
+ 
+@font-face
+{
+font-family: myFirstFont;
+src: url('/SYHT/SourceHanSansCN-Regular.otf'),
+     url('/SYHT/SourceHanSansCN-Regular.eot'); /* IE9+ */
+}
+ 
+@font-face
+{
+font-family: myFirstFonts;
+src: url('/SYHT/SourceHanSansCN-ExtraLight.otf'),
+     url('/SYHT/SourceHanSansCN-ExtraLight.eot'); /* IE9+ */
+}
+
+@font-face
+{
+font-family: myFirstFontss;
+src: url('/SYHT/SourceHanSansCN-Normal.otf'),
+     url('/SYHT/SourceHanSansCN-Normal.eot'); /* IE9+ */
+}
+
+@font-face
+{
+font-family: myFirstFontLight;
+src: url('/SYHT/SourceHanSansCN-Light.otf'),
+     url('/SYHT/SourceHanSansCN-Light.eot'); /* IE9+ */
+}

@@ -1,0 +1,289 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, input,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei" !important;
+    font-family: "Microsoft YaHei";
+    font-size: 100%;
+}
+
+html, body {
+    color: #333;
+}
+
+body {
+    background: #fff;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #12b7f5;
+}
+
+img {
+    border: none;
+}
+
+em {
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+.clearfloat:after {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+#footer {
+    background-color: #333333;
+    min-width: 1000px;
+    clear: both;
+}
+
+    #footer .footer_inner {
+        width: 1000px;
+    }
+
+        #footer .footer_inner p {
+            text-align: center;
+            font-size: 14px;
+            padding: 43px 0;
+            font-family: "Microsoft YaHei";
+            color: #fff;
+            opacity: 0.5;
+        }
+
+
+.Qrcode_wrap {
+    width: 1000px;
+    position: fixed;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -500px;
+    bottom: 20px;
+    z-index: 3;
+}
+
+    .Qrcode_wrap .Qrcode {
+        width: 120px;
+        height: 150px;
+        padding: 5px;
+        position: absolute;
+        background: #000;
+        bottom: 90px;
+        left: -176px;
+        text-align: center;
+    }
+
+        .Qrcode_wrap .Qrcode img {
+            width: 120px;
+            height: 120px;
+        }
+
+        .Qrcode_wrap .Qrcode span {
+            font-size: 14px;
+            color: #FFF;
+            text-align: center;
+        }
+
+.Quick_wrap {
+    width: 1000px;
+    position: fixed;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -500px;
+    bottom: 20px;
+    z-index: 3;
+}
+
+#Quick {
+    width: 51px;
+    position: absolute;
+    bottom: 20px;
+    right: -100px;
+}
+
+    #Quick .NavUl {
+        width: 51px;
+    }
+
+        #Quick .NavUl li {
+            width: 51px;
+            height: 51px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+            #Quick .NavUl li.HOme a .LEFT {
+                background: url(../images/home2.png) center no-repeat;
+            }
+
+            #Quick .NavUl li.zixun a .LEFT {
+                background: url(/images/zixun.png) center no-repeat;
+            }
+             #Quick .NavUl li.dongtai a .LEFT {
+                background: url(/images/dongtai.png) center no-repeat;
+            }
+            #Quick .NavUl li.yewu a .LEFT {
+                background: url(/images/yewu.png) center no-repeat;
+            }
+
+            #Quick .NavUl li.guanyu a .LEFT {
+                background: url(/images/guanyu.png) center no-repeat;
+            }
+
+            #Quick .NavUl li.anli a .LEFT {
+                background: url(/images/anli.png) center no-repeat;
+            }
+
+            #Quick .NavUl li.lianxi a .LEFT {
+                background: url(/images/lianxi.png) center no-repeat;
+            }
+
+            #Quick .NavUl li.TOp a .LEFT {
+                background: url(/images/top2.png) center no-repeat;
+            }
+
+            #Quick .NavUl li a {
+                display: block;
+                width: 120px;
+                height: 60px;
+            }
+
+                #Quick .NavUl li a .LEFT {
+                    width: 51px;
+                    height: 51px;
+                    float: left;
+                }
+
+                #Quick .NavUl li a .RIGHT {
+                    width: 51px;
+                    height: 46px;
+                    background: #ff870c;
+                    float: left;
+                    padding-top: 5px;
+                    text-align: center;
+                    color: #ffffff;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+            #Quick .NavUl li.LIGHTLI .LEFT {
+                margin-left: -51px;
+            }
+
+
+.show {
+    background: rgba(1,1,1,0.8);
+    padding: 70px 100px;
+    position: relative;
+    width: 800px;
+    height: 500px;
+}
+
+    .show .show_inner {
+        position: relative;
+        width: 800px;
+        height: 500px;
+    }
+
+        .show .show_inner li {
+            position: absolute;
+            width: 800px;
+            height: 500px;
+        }
+
+            .show .show_inner li img {
+                position: absolute;
+            }
+
+    .show .Title {
+        color: #fff;
+        font-family: myFirstFontLight;
+        font-size: 28px;
+        line-height: 56px;
+        text-align: center;
+        z-index: 999;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+    }
+
+        .show .Title .totle {
+            font-size: 24px;
+            line-height: 36px;
+            color: #999999;
+        }
+
+            .show .Title .totle .n {
+                color: #ffffff;
+            }
+
+    .show a.LEFT {
+        background: url(../images/left.png) center no-repeat;
+        width: 50px;
+        height: 100px;
+        display: block;
+        position: absolute;
+        z-index: 999;
+        cursor: pointer;
+        margin-top: -50px;
+        top: 50%;
+        left: 30px;
+    }
+
+    .show a.RIGHT {
+        background: url(../images/right.png) center no-repeat;
+        width: 50px;
+        height: 100px;
+        display: block;
+        position: absolute;
+        z-index: 999;
+        cursor: pointer;
+        margin-top: -50px;
+        top: 50%;
+        right: 30px;
+    }

@@ -1,0 +1,24 @@
+*{ margin:0 auto; padding:0;font-family:"Microsoft YaHei" ! important;font-family:"Microsoft YaHei";}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+.clear{ clear:both;}
+body{ min-width:1000px; background-color:#262525;}
+#content{ background:url(../images/inf_bg.png) center top no-repeat;min-width:1000px;}
+#content .content_inner{padding-bottom:50px;width: 1000px; }
+#content .content_inner p.LOGO{ background:url(../images/Logo3.png) center bottom no-repeat; height:258px; padding-top:148px;}
+#content .content_inner .mainContent{ width:904px;overflow: auto; background:rgba(255,255,255,0.95); margin:0; margin-top:110px; padding:0 48px; padding-bottom:150px;}
+#content .content_inner .mainContent h4{ font-size:24px; color:#333333; margin:68px auto 28px auto; background:url(../images/title_bg.jpg) center left no-repeat; padding-left:10px; font-family:"Microsoft YaHei";}
+#content .content_inner .mainContent .dynamics{ width:904px; border-top:1px solid #dcdee0; padding:36px 0;}
+#content .content_inner .mainContent .dynamics .dynamic_IMG{ width:281px; height:181px; float:left;}
+#content .content_inner .mainContent .dynamics .dynamic_IMG1{ background:url(../images/inf_img1.jpg) center no-repeat;}
+#content .content_inner .mainContent .dynamics .dynamic_intro{ padding-left:25px; float:left; width:590px;}
+#content .content_inner .mainContent .dynamics .dynamic_intro h5{ color:#333333; font-size:24px; font-family:"Microsoft YaHei"; line-height:28px; font-weight:normal;}
+#content .content_inner .mainContent .dynamics .dynamic_intro p.titleP{ font-size:16px; line-height:26px; font-family:"Microsoft YaHei"; color:#999; padding:10px 0;}
+#content .content_inner .mainContent .dynamics .dynamic_intro p.synopsis{ font-size:18px; line-height:28px; color:#333333; font-family:"Microsoft YaHei"; padding-bottom:20px;}
+#content .content_inner .mainContent .dynamics .dynamic_intro a.LearnMore{ font-size:16px; font-family:"Microsoft YaHei"; color:#ff870c; cursor:pointer;}
+#content .content_inner .mainContent .dynamics .dynamic_IMG2{ background:url(../images/inf_img2.jpg) center no-repeat;}
+#content .content_inner .mainContent .dynamics .dynamic_IMG3{ background:url(../images/inf_img3.jpg) center no-repeat;}
+#content .content_inner .mainContent .dynamics .dynamic_IMG4{ background:url(../images/inf_img4.jpg) center no-repeat;}
+#content .content_inner .mainContent .dynamics .dynamic_IMG5{ background:url(../images/inf_img5.jpg) center no-repeat;}
+#content .content_inner .mainContent .dynamics .dynamic_IMG6{ background:url(../images/inf_img6.jpg) center no-repeat;}
+
